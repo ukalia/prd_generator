@@ -29,8 +29,8 @@ The system supports `.docx` files as input (e.g., business requirement documents
 
 ##  Sample Use Case
 
-> Input: `sample_brd.docx`  
-> Output: `generated_prd.docx` with sections like Overview, Goals, Requirements, Acceptance Criteria
+- Input: `sample_brd.docx`  
+- Output: `generated_prd.docx` with sections like Overview, Goals, Requirements, Acceptance Criteria
 
 ---
 
