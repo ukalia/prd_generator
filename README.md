@@ -35,30 +35,8 @@ The system supports `.docx` files as input (e.g., business requirement documents
 ---
 
 ## Project Structure
-.
-├── README.md
-├── documents/
-│   ├── brds/                       # Input BRD
-│   ├── confluence-downloads/       # Attachments downloaded from confluence Pages(PRDs) 
-│   ├── prds/                       # Locally available PRDs
-│   └── generated-prd/              # Output PRD
-├── generation/
-│   ├── generation.py               # Entry Point for the generation flow
-│   └── utils.py 
-├── ingestion/
-│   ├── confluence.py               # Entry point for ingestion and embedding the PRDs from confluence
-│   ├── prds.py                     # Entry point for ingestion and embedding local PRDs
-│   ├── utils
-│       ├── confluence_utils.py
-│       └── docx_utils.py
-├── requirements.txt
-├── utils/
-│   ├── db_utils.py                 # Chroma Db utils
-│   ├── ollama_utils.py             # Utils for Embedding and Generation using Ollama
-│   └── text_utils.py               
-├── db/                             # Local vector db for embeddings
-├── venv/
-└── .env
+<img width="756" height="477" alt="image" src="https://github.com/user-attachments/assets/6d687352-7b08-4616-a8ce-9874ba7cf001" />
+
     
 
 ## 🧰 How to Run
