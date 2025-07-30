@@ -13,7 +13,6 @@ The system supports `.docx` files as input (e.g., business requirement documents
 - **Python** – Core language
 - **Ollama** – Runs local LLMs like Mistral or LLaMA
 - **ChromaDB** – Vector store for document retrieval in RAG
-- **python-docx** – For `.docx` file parsing and output generation
 
 ---
 
