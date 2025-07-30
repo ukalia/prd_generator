@@ -2,9 +2,9 @@ from docx import Document
 from dotenv import load_dotenv
 import logging
 import os
-from utils.text_utils import chunk_text
-from utils.ollama_utils import get_embedding, generate_prd
 from utils.db_utils import get_similar_docs
+from utils.ollama_utils import get_embedding, generate_prd
+from utils.text_utils import chunk_text
 
 load_dotenv()
 

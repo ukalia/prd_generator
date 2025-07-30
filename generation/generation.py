@@ -1,8 +1,8 @@
 from dotenv import load_dotenv
 import logging
 import os
-from ingestion.utils.docx_utils import extract_text_from_docx
 from generation.utils import process_input_text
+from ingestion.utils.docx_utils import extract_text_from_docx
 
 logging.basicConfig(
     level=logging.INFO,  # Set the log level

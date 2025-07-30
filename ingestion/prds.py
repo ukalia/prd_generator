@@ -1,6 +1,6 @@
+import logging
 from ingestion.utils.docx_utils import get_prds, extract_date_from_document, extract_text_from_docx
 from utils.text_utils import process_text
-import logging
 
 logging.basicConfig(
     level=logging.INFO,
