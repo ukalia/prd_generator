@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import logging
 import pymupdf
 import re
@@ -6,8 +5,6 @@ from utils.db_utils import load_data_to_db
 from utils.ollama_utils import get_embedding
 
 logger = logging.getLogger(__name__)
-
-load_dotenv()
 
 def process_pdf(pdfs, page):
     from ingestion.utils.confluence_utils import download_attachment

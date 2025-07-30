@@ -1,11 +1,8 @@
 import chromadb
-from dotenv import load_dotenv
 import logging
 import os
 
 logger = logging.getLogger(__name__)
-
-load_dotenv()
 
 DB_PATH = os.getenv('VECTOR_DB_DIRECTORY')
 
