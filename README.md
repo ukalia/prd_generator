@@ -39,7 +39,7 @@ The system supports `.docx` files as input (e.g., business requirement documents
 
     
 
-## 🧰 How to Run
+## How to Run
 
 ### 1. Start Ollama (and pull Mistral)
 ollama pull mistral
